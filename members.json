@@ -132,6 +132,62 @@
       ]
     },
     {
+      "asnum": 38173,
+      "member_since": "2021-02-21T00:00:00Z",
+      "url": "http://www.as38173.com",
+      "name": "Qinlong Networks",
+      "peering_policy": "open",
+      "member_type": "peering",
+      "contact_email": ["admin@6700.cc"],
+      "contact_phone": [null],
+      "connection_list": [
+        {
+          "ixp_id": 1,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 4,
+              "if_speed": 100
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 2,
+              "ipv6": {
+                "address": "2a0e:b107:b7a::8",
+                "as_macro": "AS-QINLONG",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 50
+              }
+            }
+          ]
+        },
+        {
+          "ixp_id": 4,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 7,
+              "if_speed": 100
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 3,
+              "ipv6": {
+                "address": "2a0e:b107:b7b::4",
+                "as_macro": "AS-QINLONG",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 50
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "asnum": 64500,
       "member_since": "2020-07-20T00:00:00Z",
       "url": "https://ix42.org",
@@ -220,6 +276,37 @@
               },
               "ipv6": {
                 "address": "2a0e:b107:b7b::1",
+                "as_macro": "AS-IX42-6",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 1000,
+                "services": [
+                  {
+                    "type": "ixrouteserver",
+                    "daemon": "Bird v2",
+                    "daemon_version": "2.0.4",
+                    "os": "Debian",
+                    "os_version": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ixp_id": 6,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 9,
+              "if_speed": 10000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 5,
+              "ipv6": {
+                "address": "2a0e:b107:b7d::1",
                 "as_macro": "AS-IX42-6",
                 "routeserver": true,
                 "mac_addresses": [],
@@ -529,6 +616,28 @@
               }
             }
           ]
+        },
+        {
+          "ixp_id": 6,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 9,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 5,
+              "ipv6": {
+                "address": "2a0e:b107:b7d::3",
+                "as_macro": "AS-OCEANIX",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 1800
+              }
+            }
+          ]
         }
       ]
     },
@@ -603,62 +712,6 @@
       ]
     },
     {
-      "asnum": 140936,
-      "member_since": "2020-07-26T00:00:00Z",
-      "url": null,
-      "name": "SUNNET",
-      "peering_policy": "open",
-      "member_type": "peering",
-      "contact_email": ["admin@6700.cc"],
-      "contact_phone": [null],
-      "connection_list": [
-        {
-          "ixp_id": 1,
-          "state": "active",
-          "if_list": [
-            {
-              "switch_id": 4,
-              "if_speed": 100
-            }
-          ],
-          "vlan_list": [
-            {
-              "vlan_id": 2,
-              "ipv6": {
-                "address": "2a0e:b107:b7a::8",
-                "as_macro": "AS-SUNNET-CN",
-                "routeserver": true,
-                "mac_addresses": [],
-                "max_prefix": 0
-              }
-            }
-          ]
-        },
-        {
-          "ixp_id": 4,
-          "state": "active",
-          "if_list": [
-            {
-              "switch_id": 7,
-              "if_speed": 100
-            }
-          ],
-          "vlan_list": [
-            {
-              "vlan_id": 3,
-              "ipv6": {
-                "address": "2a0e:b107:b7b::4",
-                "as_macro": "AS-SUNNET-CN",
-                "routeserver": true,
-                "mac_addresses": [],
-                "max_prefix": 0
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "asnum": 140938,
       "member_since": "2020-08-10T00:00:00Z",
       "url": "https://as140938.mnihyc.com/",
@@ -686,6 +739,74 @@
                 "routeserver": true,
                 "mac_addresses": [],
                 "max_prefix": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asnum": 141237,
+      "member_since": "2021-02-28T00:00:00Z",
+      "url": "https://cas7.moe",
+      "name": "Moecast Network Clearnet",
+      "peering_policy": "open",
+      "member_type": "peering",
+      "contact_email": ["noc@cas7.moe"],
+      "contact_phone": [null],
+      "connection_list": [
+        {
+          "ixp_id": 1,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 4,
+              "if_speed": 100
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 2,
+              "ipv6": {
+                "address": "2a0e:b107:b7a::24",
+                "as_macro": "AS-MOEC",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 250
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asnum": 141712,
+      "member_since": "2021-03-09T00:00:00Z",
+      "url": null,
+      "name": "luYs",
+      "peering_policy": "open",
+      "member_type": "peering",
+      "contact_email": ["noc@luys.cloud"],
+      "contact_phone": [null],
+      "connection_list": [
+        {
+          "ixp_id": 4,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 7,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 3,
+              "ipv6": {
+                "address": "2a0e:b107:b7b::14",
+                "as_macro": "AS-LUYS",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 12
               }
             }
           ]
@@ -856,6 +977,28 @@
               }
             }
           ]
+        },
+        {
+          "ixp_id": 6,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 9,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 5,
+              "ipv6": {
+                "address": "2a0e:b107:b7d::2",
+                "as_macro": "AS-STREXP",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 1000
+              }
+            }
+          ]
         }
       ]
     },
@@ -919,6 +1062,130 @@
                 "routeserver": true,
                 "mac_addresses": [],
                 "max_prefix": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asnum": 211876,
+      "member_since": "2021-03-10T00:00:00Z",
+      "url": "https://fixmix.network",
+      "name": "fixmix Network",
+      "peering_policy": "open",
+      "member_type": "peering",
+      "contact_email": ["ops@fixmix.network"],
+      "contact_phone": ["+443333391678"],
+      "connection_list": [
+        {
+          "ixp_id": 1,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 4,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 2,
+              "ipv6": {
+                "address": "2a0e:b107:b7a::25",
+                "as_macro": "AS-FIXMIX",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asnum": 211954,
+      "member_since": "2021-02-04T00:00:00Z",
+      "url": "https://www.routeix.net",
+      "name": "RouteIX Networks",
+      "peering_policy": "open",
+      "member_type": "peering",
+      "contact_email": ["noc@routeix.net"],
+      "contact_phone": [null],
+      "connection_list": [
+        {
+          "ixp_id": 6,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 9,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 5,
+              "ipv6": {
+                "address": "2a0e:b107:b7d::4",
+                "as_macro": "AS-ROUTEIX",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 600
+              }
+            }
+          ]
+        },
+        {
+          "ixp_id": 4,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 7,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 3,
+              "ipv6": {
+                "address": "2a0e:b107:b7b::13",
+                "as_macro": "AS-ROUTEIX",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 600
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asnum": 212034,
+      "member_since": "2021-02-04T00:00:00Z",
+      "url": "https://www.samproduce.com",
+      "name": "sclrnet.com",
+      "peering_policy": "open",
+      "member_type": "peering",
+      "contact_email": ["zezhuyu@gmail.com"],
+      "contact_phone": [null],
+      "connection_list": [
+        {
+          "ixp_id": 6,
+          "state": "active",
+          "if_list": [
+            {
+              "switch_id": 9,
+              "if_speed": 1000
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 5,
+              "ipv6": {
+                "address": "2a0e:b107:b7d::5",
+                "as_macro": "AS-ZEZHUYU",
+                "routeserver": true,
+                "mac_addresses": [],
+                "max_prefix": 20
               }
             }
           ]
@@ -1055,7 +1322,7 @@
                 "as_macro": "AS-XIWEI",
                 "routeserver": true,
                 "mac_addresses": [],
-                "max_prefix": 5
+                "max_prefix": 20
               }
             }
           ]
