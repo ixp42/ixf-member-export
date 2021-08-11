@@ -1,0 +1,86 @@
+[
+  {
+    "shortname": "IX42 LAS",
+    "name": "Internet eXchange 42 Las Vegas",
+    "country": "US",
+    "url": "https://ix42.org",
+    "peeringdb_id": 3226,
+    "ixf_id": 878,
+    "ixp_id": 1,
+    "support_email": "ix42@ix42.org",
+    "support_phone": "+1 318 523 1435",
+    "support_contact_hours": "24x7",
+    "emergency_email": "ix42@ix42.org",
+    "emergency_phone": "+1 318 523 1435",
+    "emergency_contact_hours": "24x7",
+    "billing_contact_hours": "24x7",
+    "billing_email": "ix42@ix42.org",
+    "billing_phone": "+1 318 523 1435",
+    "peering_policy_list": ["open", "selective", "mandatory", "closed"],
+    "vlan": [
+      {
+        "id": 2,
+        "name": "IX42 Las Vegas VLAN",
+        "ipv6": {
+          "prefix": "2a0e:b107:b7a::",
+          "mask_length": 64,
+          "looking_glass_urls": ["https://portal.ix42.org/lg"]
+        }
+      }
+    ],
+    "switch": [
+      {
+        "id": 4,
+        "name": "IX42 Las Vegas",
+        "colo": "IX42 Las Vegas",
+        "city": "Las Vegas",
+        "country": "US",
+        "manufacturer": "Linux",
+        "model": "Unknown",
+        "software": "Unknown Unknown"
+      }
+    ]
+  },
+  {
+    "shortname": "IX42 SG",
+    "name": "Internet eXchange 42 Singapore",
+    "country": "SG",
+    "url": "https://ix42.org",
+    "peeringdb_id": 3237,
+    "ixf_id": 881,
+    "ixp_id": 4,
+    "support_email": "ix42@ix42.org",
+    "support_phone": "+1 318 523 1435",
+    "support_contact_hours": "24x7",
+    "emergency_email": "ix42@ix42.org",
+    "emergency_phone": "+1 318 523 1435",
+    "emergency_contact_hours": "24x7",
+    "billing_contact_hours": "24x7",
+    "billing_email": "ix42@ix42.org",
+    "billing_phone": "+1 318 523 1435",
+    "peering_policy_list": ["open", "selective", "mandatory", "closed"],
+    "vlan": [
+      {
+        "id": 3,
+        "name": "IX42 Singapore VLAN",
+        "ipv6": {
+          "prefix": "2a0e:b107:b7b::",
+          "mask_length": 64,
+          "looking_glass_urls": ["https://portal.ix42.org/lg"]
+        }
+      }
+    ],
+    "switch": [
+      {
+        "id": 7,
+        "name": "IX42 Singapore",
+        "colo": "IX42 Singapore",
+        "city": "Singapore",
+        "country": "SG",
+        "manufacturer": "Linux",
+        "model": "Unknown",
+        "software": ""
+      }
+    ]
+  }
+]
