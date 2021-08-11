@@ -1,0 +1,26 @@
+name: Publish members json
+on:
+  schedule:
+    - cron: '40 23 * * *'
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.9
+      - name: Generate members.json
+        run: python3 generate.py && mkdir deploy && mv members.json ./deploy
+      - name: Deploy members.json
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: publish
+          folder: deploy
