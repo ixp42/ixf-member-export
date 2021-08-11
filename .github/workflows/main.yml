@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.9
       - name: Generate members.json
-        run: python3 generate.py && mkdir deploy && mv members.json ./deploy
+        run: pip3 install requests && python3 generate.py && mkdir deploy && mv members.json ./deploy
       - name: Deploy members.json
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
