@@ -932,6 +932,38 @@
             ]
         },
         {
+            "asnum": 142055,
+            "member_since": "2021-08-11T00:00:00Z",
+            "url": "https://anillc.cn",
+            "name": "Anillc Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 2,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7a::30",
+                                "as_macro": "AS-ANILLC",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 50
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "asnum": 142284,
             "member_since": "2021-05-23T00:00:00Z",
             "url": null,
@@ -1238,6 +1270,38 @@
                                 "routeserver": true,
                                 "mac_addresses": [],
                                 "max_prefix": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 211168,
+            "member_since": "2021-08-11T00:00:00Z",
+            "url": "https://as211168.net",
+            "name": "Martin Gotlund",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 100
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 2,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7a::31",
+                                "as_macro": "AS-GOTLUND",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 12
                             }
                         }
                     ]
@@ -1657,5 +1721,5 @@
             ]
         }
     ],
-    "timestamp": "2021-08-11T23:45:57Z"
+    "timestamp": "2021-08-12T23:45:57Z"
 }
