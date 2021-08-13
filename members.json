@@ -998,7 +998,7 @@
             "asnum": 142553,
             "member_since": "2021-08-10T00:00:00Z",
             "url": "https://net.zhiccc.net",
-            "name": "Air&quot;s Project Network",
+            "name": "Air's Project Network",
             "peering_policy": "open",
             "member_type": "peering",
             "connection_list": [
@@ -1343,8 +1343,8 @@
         {
             "asnum": 211876,
             "member_since": "2021-03-10T00:00:00Z",
-            "url": "https://fixmix.network",
-            "name": "fixmix Network",
+            "url": "https://as211876.net",
+            "name": "fixmix Technologies Ltd",
             "peering_policy": "open",
             "member_type": "peering",
             "connection_list": [
@@ -1362,10 +1362,10 @@
                             "vlan_id": 2,
                             "ipv6": {
                                 "address": "2a0e:b107:b7a::25",
-                                "as_macro": "AS-FIXMIX",
+                                "as_macro": "AS-FIXMIXNET",
                                 "routeserver": true,
                                 "mac_addresses": [],
-                                "max_prefix": 20
+                                "max_prefix": 100
                             }
                         }
                     ]
@@ -1384,10 +1384,10 @@
                             "vlan_id": 3,
                             "ipv6": {
                                 "address": "2a0e:b107:b7b::15",
-                                "as_macro": "AS-FIXMIX",
+                                "as_macro": "AS-FIXMIXNET",
                                 "routeserver": true,
                                 "mac_addresses": [],
-                                "max_prefix": 20
+                                "max_prefix": 100
                             }
                         }
                     ]
@@ -1721,5 +1721,5 @@
             ]
         }
     ],
-    "timestamp": "2021-08-12T23:45:57Z"
+    "timestamp": "2021-08-13T23:45:49Z"
 }
