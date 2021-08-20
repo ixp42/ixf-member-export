@@ -995,6 +995,36 @@
             ]
         },
         {
+            "asnum": 142551,
+            "member_since": "2021-08-20T00:00:00Z",
+            "url": null,
+            "name": "Azurite27 Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 2,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7a::32",
+                                "routeserver": true,
+                                "mac_addresses": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "asnum": 142553,
             "member_since": "2021-08-10T00:00:00Z",
             "url": "https://net.zhiccc.net",
@@ -1217,7 +1247,7 @@
             "asnum": 208753,
             "member_since": "2021-05-07T00:00:00Z",
             "url": "https://6project.org",
-            "name": "Marco d&quot;Angelo",
+            "name": "Marco d'Angelo",
             "peering_policy": "open",
             "member_type": "peering",
             "connection_list": [
@@ -1721,5 +1751,5 @@
             ]
         }
     ],
-    "timestamp": "2021-08-19T23:46:02Z"
+    "timestamp": "2021-08-20T23:46:08Z"
 }
