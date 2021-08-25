@@ -1144,6 +1144,26 @@
                             }
                         }
                     ]
+                },
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::5",
+                                "routeserver": true,
+                                "mac_addresses": []
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1918,5 +1938,5 @@
             ]
         }
     ],
-    "timestamp": "2021-08-25T02:50:33Z"
+    "timestamp": "2021-08-25T23:47:41Z"
 }
