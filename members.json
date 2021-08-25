@@ -99,6 +99,54 @@
                     "software": ""
                 }
             ]
+        },
+        {
+            "shortname": "IX42 LUX",
+            "name": "Internet eXchange 42 Luxembourg",
+            "country": "LU",
+            "url": "https://ix42.org",
+            "ixf_id": 0,
+            "ixp_id": 7,
+            "support_email": "ix42@ix42.org",
+            "support_phone": "+1 318 523 1435",
+            "support_contact_hours": "24x7",
+            "emergency_email": "ix42@ix42.org",
+            "emergency_phone": "+1 318 523 1435",
+            "emergency_contact_hours": "24x7",
+            "billing_contact_hours": "24x7",
+            "billing_email": "ix42@ix42.org",
+            "billing_phone": "+1 318 523 1435",
+            "peering_policy_list": [
+                "open",
+                "selective",
+                "mandatory",
+                "closed"
+            ],
+            "vlan": [
+                {
+                    "id": 6,
+                    "name": "IX42 Luxembourg VLAN",
+                    "ipv6": {
+                        "prefix": "2a0e:b107:b7e::",
+                        "mask_length": 64,
+                        "looking_glass_urls": [
+                            "https://portal.ix42.org/lg"
+                        ]
+                    }
+                }
+            ],
+            "switch": [
+                {
+                    "id": 10,
+                    "name": "IX42 Luxembourg",
+                    "colo": "IX42 Luxembourg",
+                    "city": "Bissen",
+                    "country": "LU",
+                    "manufacturer": "Linux",
+                    "model": null,
+                    "software": ""
+                }
+            ]
         }
     ],
     "member_list": [
@@ -131,6 +179,28 @@
                             },
                             "ipv6": {
                                 "address": "2a0e:b107:b7a::12",
+                                "as_macro": "AS112",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::112",
                                 "as_macro": "AS112",
                                 "routeserver": true,
                                 "mac_addresses": [],
@@ -398,6 +468,37 @@
                                         "daemon_version": "2.0.4",
                                         "os": "Debian",
                                         "os_version": "10"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::1",
+                                "as_macro": "AS-IX42-6",
+                                "routeserver": false,
+                                "mac_addresses": [],
+                                "max_prefix": 1000,
+                                "services": [
+                                    {
+                                        "type": "ixrouteserver",
+                                        "daemon": "Bird v2",
+                                        "daemon_version": "2.0.8",
+                                        "os": "Ubuntu",
+                                        "os_version": "20.10"
                                     }
                                 ]
                             }
@@ -928,6 +1029,28 @@
                             }
                         }
                     ]
+                },
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::3",
+                                "as_macro": "AS-BAOSHUO",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 50
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1209,6 +1332,28 @@
                             }
                         }
                     ]
+                },
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::4",
+                                "as_macro": "AS-STREXP",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 1000
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1414,6 +1559,28 @@
                             "vlan_id": 3,
                             "ipv6": {
                                 "address": "2a0e:b107:b7b::15",
+                                "as_macro": "AS-FIXMIXNET",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::2",
                                 "as_macro": "AS-FIXMIXNET",
                                 "routeserver": true,
                                 "mac_addresses": [],
@@ -1751,5 +1918,5 @@
             ]
         }
     ],
-    "timestamp": "2021-08-24T23:45:58Z"
+    "timestamp": "2021-08-25T02:50:33Z"
 }
