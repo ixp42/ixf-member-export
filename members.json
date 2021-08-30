@@ -1087,6 +1087,36 @@
             ]
         },
         {
+            "asnum": 142281,
+            "member_since": "2021-08-30T00:00:00Z",
+            "url": "https://yuuta.network",
+            "name": "Yuuta Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 7,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 10,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 6,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7e::6",
+                                "routeserver": true,
+                                "mac_addresses": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "asnum": 142284,
             "member_since": "2021-05-23T00:00:00Z",
             "url": null,
@@ -1465,6 +1495,38 @@
                                 "routeserver": true,
                                 "mac_addresses": [],
                                 "max_prefix": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 210903,
+            "member_since": "2021-08-30T00:00:00Z",
+            "url": null,
+            "name": "TsingYao Network",
+            "peering_policy": "open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 1000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 2,
+                            "ipv6": {
+                                "address": "2a0e:b107:b7a::33",
+                                "as_macro": "AS-TSINGYAO",
+                                "routeserver": true,
+                                "mac_addresses": [],
+                                "max_prefix": 29
                             }
                         }
                     ]
@@ -1938,5 +2000,5 @@
             ]
         }
     ],
-    "timestamp": "2021-08-29T23:45:49Z"
+    "timestamp": "2021-08-30T23:45:52Z"
 }
